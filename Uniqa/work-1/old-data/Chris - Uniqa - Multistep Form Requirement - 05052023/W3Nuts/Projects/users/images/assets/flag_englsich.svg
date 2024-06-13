@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000063598614457051032460000017004507658775907722_);}
+	.st1{fill:#0D2764;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#DE1F2A;}
+</style>
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M-0.016,24.005c0,13.255,10.745,24,24,24s24-10.745,24-24s-10.745-24-24-24l0,0
+			C10.729,0.005-0.016,10.751-0.016,24.005"/>
+	</defs>
+	<clipPath id="SVGID_00000098222582901019270580000010414574516742825652_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g id="Gruppe_390" style="clip-path:url(#SVGID_00000098222582901019270580000010414574516742825652_);">
+		<rect id="Rechteck_128" x="18.894" y="-0.1" class="st1" width="28.8" height="48.343"/>
+		<path id="Pfad_147" class="st2" d="M31.923,14.3V-0.1h-3.43v15.77L31.923,14.3z"/>
+		<path id="Pfad_148" class="st2" d="M44.267,18.759h3.43v-1.714L44.267,18.759z"/>
+		<path id="Pfad_149" class="st2" d="M44.267,28.7l3.43,1.714V28.7H44.267z"/>
+		<path id="Pfad_150" class="st2" d="M28.494,48.245h3.43V33.159l-3.43-1.373V48.245z"/>
+		<path id="Pfad_151" class="st2" d="M47.351,31.786l0.343,0.343v-1.714l-3.43-1.716h-15.77v3.086L31.58,33.5l16.114,7.543v-5.486
+			l-7.543-3.77L47.351,31.786z"/>
+		<path id="Pfad_152" class="st2" d="M32.607,15.673l15.086-7.543V6.413L31.921,14.3l-3.427,1.373v3.086h15.77l3.43-1.716v-5.484
+			l-7.543,3.77h-7.543V15.673z"/>
+		<path id="Pfad_153" class="st3" d="M44.264,18.757h-15.77V-0.1h-9.6v48h9.6V28.7h21.014v-9.934"/>
+		<path id="Pfad_154" class="st3" d="M32.607,15.673h7.2l7.886-3.77V8.129L32.607,15.673z"/>
+		<path id="Pfad_155" class="st3" d="M47.353,31.786h-7.2l7.541,3.77v-3.77H47.353z"/>
+		<rect id="Rechteck_129" x="-0.306" y="-0.1" class="st1" width="28.8" height="48.343"/>
+		<path id="Pfad_156" class="st2" d="M15.467,33.843v14.4h3.43V32.129L15.467,33.843z"/>
+		<path id="Pfad_157" class="st2" d="M-0.306,29.043v1.714l3.43-1.714H-0.306z"/>
+		<path id="Pfad_158" class="st2" d="M-0.306,17.729v1.714h3.43L-0.306,17.729z"/>
+		<path id="Pfad_159" class="st2" d="M18.896-0.1h-3.43v14.743l3.43,1.716V-0.1z"/>
+		<path id="Pfad_160" class="st2" d="M28.494,32.129v16.114h3.43v-14.4L28.494,32.129z"/>
+		<path id="Pfad_161" class="st2" d="M15.464,14.643l-15.77-7.886v5.486l7.543,3.773h-7.543v1.716l3.43,1.714h15.77v-3.089
+			L15.464,14.643z"/>
+		<path id="Pfad_162" class="st2" d="M3.123,29.043l-3.43,1.714v5.486l7.543-3.77h7.2l-14.743,7.543v1.714l15.77-7.886l3.461-1.68
+			l-0.065-3.12H3.123z"/>
+		<path id="Pfad_163" class="st3" d="M18.894-0.1v19.543h-19.2v9.6h19.2V50.06h9.6V-0.1H18.894z"/>
+		<path id="Pfad_164" class="st3" d="M7.237,32.473l-7.543,3.773v3.77l15.084-7.543H7.237z"/>
+		<path id="Pfad_165" class="st3" d="M7.237,16.016l-7.543-3.77v3.77l0.343,0.343h7.2L7.237,16.016z"/>
+	</g>
+</g>
+</svg>

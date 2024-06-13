@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'FoundrySans-Normal';
+    src: url('FoundrySans-Normal.woff2') format('woff2'),
+        url('FoundrySans-Normal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FoundrySans-Demi';
+    src: url('FoundrySans-Demi.woff2') format('woff2'),
+        url('FoundrySans-Demi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FoundrySans-Light';
+    src: url('FoundrySans-Light.woff2') format('woff2'),
+        url('FoundrySans-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AmoretSans';
+    src: url('AmoretSans.woff2') format('woff2'),
+        url('AmoretSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AmoretScriptAlt';
+    src: url('AmoretScriptAlt.woff2') format('woff2'),
+        url('AmoretScriptAlt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AmoretScript';
+    src: url('AmoretScript.woff2') format('woff2'),
+        url('AmoretScript.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

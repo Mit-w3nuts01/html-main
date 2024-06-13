@@ -1,0 +1,353 @@
+@media (min-width: 1200px) and (max-width: 1299px){
+
+/*============ Header Start ============*/
+/*============ Header End ============*/
+
+/*============ Banner Start ============*/
+/*============ Banner End ============*/
+
+/*============ Content Start ============*/
+/*============ Content End ============*/
+
+/*============ Footer Start ============*/
+/*============ Footer End ============*/
+
+}
+
+@media (max-width: 1199px){
+
+/*============ Header Start ============*/
+.header { height:72px;}
+.header-block { height:72px; padding:12px 30px;}
+.header-navigation { width:100%; max-width:375px; height:calc(100vh - 72px); overflow-y:auto; -webkit-overflow-scrolling:touch; -ms-flex-wrap:nowrap; flex-wrap:nowrap; -ms-flex-direction:column; flex-direction:column; background:var(--bg-white); border-top:1px solid #ECEDEE; border-left:1px solid #ECEDEE; position:fixed; top:72px; right:0px; z-index:9999; -webkit-transform:translateX(100%); transform:translateX(100%); -webkit-transition:all 0.3s ease-in-out; transition:all 0.3s ease-in-out; margin:0px; padding:0px;}
+.header-navigation.open { -webkit-transform:translateX(0px); transform:translateX(0px);}
+.header-navbar { width:100%; position:static; margin:0px; padding:30px 15px;}
+.header-navbar > ul { width:100%; margin:0px; padding:0px;}
+.header-navbar > ul > li { width:100%; margin:0 0 30px 0; padding:0px;}
+.header-navbar > ul > li:last-child { margin:0px;}
+.header-navbar > ul > li > a { font-family: 'Lato-Bold'; font-size:15px; margin:0px; padding:0 0 0 15px;}
+.header-navbar > ul > li > a:before { content:""; width:4px; height:7px; background:url(../images/icons/menu-link-arrow.svg) center center no-repeat; position:absolute; top:4px; left:0px; z-index:1;}
+.header-navbar > ul > li > a:hover:before { background:url(../images/icons/menu-link-arrow-blue.svg) center center no-repeat;}
+.header-navbar > ul > li > a:after { display:none;}
+.header-right { width:100%; border-top:1px solid #ECEDEE; margin:0px; padding:30px 15px;}
+.header-right .header-btnbox { width:100%; margin:0px; padding:30px 0 0 0;}
+.header-right .header-btnbox .link-btn { width:100%; display:block; font-family: 'OpenSans-Bold'; font-size:16px; color:var(--text-white); text-align:center; line-height:1; background:var(--bg-blue); border:none; border-radius:4px; box-shadow:none; outline:none; cursor:pointer; margin:0px; padding:17px 20px;}
+.header-right .header-btnbox .link-btn:hover { color:var(--text-white); background:#006FC9;}
+.header-right .header-lang { width:100%; -ms-flex-order:-1; order:-1; border-bottom:1px solid #ECEDEE; margin:0px; padding:0 0 30px 0;}
+.header-right .header-lang .dropdown .dropdown-toggle { background:var(--bg-white); border:1px solid #D0D4DA; border-radius:3px; box-shadow:inset 0px 2px 3px rgba(27,27,27,0.15); margin:0px; padding:12px 35px 12px 15px;}
+.header-right .header-lang .dropdown .dropdown-toggle:after { top:14px; right:15px;}
+.header-right .header-lang .dropdown .dropdown-menu { width:100%; min-width:100%; top:40px !important;}
+.menu-toggler { display:block;}
+/*============ Header End ============*/
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+/*============ Header Start ============*/
+/*============ Header End ============*/
+
+/*============ Banner Start ============*/
+/*============ Banner End ============*/
+
+/*============ Content Start ============*/
+.uniqa-cta-block { padding:30px 30px;}
+.uniqa-cta-block .uniqa-cta-box .box-text .h5 { font-size:20px;}
+.uniqa-cta-block .uniqa-cta-box .box-text p { font-size:18px;}
+.uniqa-cta-block .uniqa-cta-box .box-text ul li { font-size:18px;}
+.uniqa-cta-block .uniqa-cta-box .box-text .txt-label { font-size:16px;}
+.uniqa-cta-block .uniqa-cta-street .textbox { font-size:24px;}
+.uniqa-beratung-team .ub-team-list .ub-team-box .imgbox { width:140px; height:140px;}
+.uniqa-beratung-team .ub-team-list .ub-team-box .textbox .h5 { font-size:20px;}
+.uniqa-block .uniqa-image { min-height:420px;}
+/*============ Content End ============*/
+
+/*============ Footer Start ============*/
+/*============ Footer End ============*/
+
+/*............Berater-Finden Page Start............*/
+.consultants-section { padding:0 0 80px 0;}
+/*............Berater-Finden Page End............*/
+
+/*............Unser-Standort Page Start............*/
+.standort-block .standort-nussdorf h1 { margin:0 0 30px 0;}
+.standort-block .standort-nussdorf .nussdorf-street { max-width:300px;}
+.standort-block .standort-nussdorf .nussdorf-street .textbox { font-size:24px;}
+.standort-block .standort-nussdorf .nussdorf-info p { font-size:18px;}
+.standort-cta-block .standort-cta-list ul { margin:0px -20px;}
+.standort-cta-block .standort-cta-list ul li { padding:0px 20px;}
+.bw-top-part .row { margin:0px -15px;}
+.bw-top-part .row > [class*="col-"] { padding:0px 15px;}
+.bw-bottom-part .row { margin:0px -15px;}
+.bw-bottom-part .row > [class*="col-"] { padding:0px 15px;}
+.management-block .management-box .imgbox { width:100px; height:100px;}
+.management-block .management-box .textbox { margin:-50px 0 0 0; padding:67px 15px 40px 15px;}
+.management-block .management-box .textbox .h5 { font-size:20px;}
+/*............Unser-Standort Page End............*/
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+/*============ Header Start ============*/
+/*============ Header End ============*/
+
+/*============ Banner Start ============*/
+.main-banner { min-height:400px; padding:70px 0px 130px 0px;}
+.main-banner .banner-text { max-width:100%;}
+.inner-banner { min-height:400px; padding:70px 0px 250px 0px;}
+.inner-banner .banner-text { max-width:100%;}
+.inner-banner .banner-text h1 { font-size:34px;}
+.inner-banner .banner-text p { font-size:20px;}
+/*============ Banner End ============*/
+
+/*============ Content Start ============*/
+.uniqa-cta-block { padding:20px 20px;}
+.uniqa-cta-block .uniqa-cta-box .box-text { padding:0 0 0 15px;}
+.uniqa-cta-block .uniqa-cta-box .box-text .h5 { font-size:17px;}
+.uniqa-cta-block .uniqa-cta-box .box-text p { font-size:16px;}
+.uniqa-cta-block .uniqa-cta-box .box-text ul li { font-size:16px;}
+.uniqa-cta-block .uniqa-cta-box .box-text .txt-label { font-size:13px;}
+.uniqa-cta-block .uniqa-cta-street .textbox { font-size:17px;}
+.uniqa-beratung-team .ub-team-list .ub-team-box .imgbox { width:140px; height:140px;}
+.uniqa-beratung-team .ub-team-list .ub-team-box .textbox .h5 { font-size:20px;}
+.insurance-block .insurance-text { width:calc(100% - 180px); max-width:480px;}
+.insurance-block .insurance-image { width:180px;}
+.protection-title .pt-arrow { top:50px; right:calc(100% - 15px);}
+.uniqa-block .uniqa-image { min-height:370px;}
+/*============ Content End ============*/
+
+/*============ Footer Start ============*/
+.footer-block .footer-box .f-info { margin:0 0 30px 0;}
+.footer-block .footer-box .f-text { margin:0 0 30px 0;}
+/*============ Footer End ============*/
+
+/*............Berater-Finden Page Start............*/
+.consultants-section { padding:0 0 80px 0;}
+.consultants-form { padding:40px 40px;}
+.consultants-form .form-footer .number-box { right:-15px;}
+.consultants-result { padding:40px 63px 0px 63px;}
+/*............Berater-Finden Page End............*/
+
+/*............Unser-Standort Page Start............*/
+.standort-block .standort-nussdorf { padding:0 20px 0 0;}
+.standort-block .standort-nussdorf h1 { margin:0 0 30px 0;}
+.standort-block .standort-nussdorf .nussdorf-street { max-width:100%;}
+.standort-block .standort-nussdorf .nussdorf-street .textbox { font-size:18px;}
+.standort-block .standort-nussdorf .nussdorf-info p { font-size:16px;}
+.standort-block .standort-box { padding:0px 20px;}
+.standort-cta-block .standort-cta-list ul { margin:0px -10px;}
+.standort-cta-block .standort-cta-list ul li { font-size:13px; padding:0px 10px;}
+.bw-title { padding:0 0 40px 0;}
+.bw-top-part .row { margin:0px -15px;}
+.bw-top-part .row > [class*="col-"] { padding:0px 15px;}
+.bw-top-part .bw-images { padding:40px 0 0 0;}
+.bw-middle-part { padding:0 0 40px 0;}
+.bw-bottom-part { padding:0 0 40px 0;}
+.bw-bottom-part .row { margin:0px -15px;}
+.bw-bottom-part .row > [class*="col-"] { padding:0px 15px;}
+.management-block .management-row .management-col { width:33.33333333%;}
+.beratung-vereinbaren-block .bv-image { padding:0 15px 0 0;}
+.beratung-vereinbaren-block .bv-text { padding:0 0 0 15px;}
+/*............Unser-Standort Page End............*/
+
+}
+
+@media (max-width: 767px){
+
+/*============ Header Start ============*/
+.header-block { padding:12px 15px;}
+.logo .logo-image img.logo-desktop { display:none;}
+.logo .logo-image img.logo-mobile { display:block;}
+.header-navigation { max-width:100%; border-left:none;}
+/*============ Header End ============*/
+
+/*============ Banner Start ============*/
+.main-banner { min-height:400px; padding:40px 0px 100px 0px;}
+.main-banner .banner-text { max-width:100%;}
+.main-banner .banner-text h1 { font-size:28px; line-height:1.3;}
+.main-banner .banner-text ul { padding:5px 0 0 0;}
+.inner-banner { min-height:400px; padding:40px 0px 180px 0px;}
+.inner-banner .banner-text { max-width:100%;}
+.inner-banner .banner-text h1 { font-size:34px;}
+.inner-banner .banner-text p { font-size:20px;}
+/*============ Banner End ============*/
+
+/*============ Content Start ============*/
+.uniqa-cta-block { padding:16px 16px 0px 16px;}
+.uniqa-cta-block .row > [class*="col-"]:last-child { -ms-flex-order:-1; order:-1;}
+.uniqa-cta-block .uniqa-cta-box { margin:0 0 30px 0;}
+.uniqa-cta-block .uniqa-cta-box .box-text { padding:0 0 0 15px;}
+.uniqa-cta-block .uniqa-cta-street { min-height:78px; margin:0 0 30px 0;}
+.uniqa-cta-block .uniqa-cta-street .textbox { font-size:25px;}
+.features-section { padding:40px 0 0 0;}
+.uniqa-beratung-title { padding:0 0 40px 0;}
+.uniqa-beratung-boxes { padding:0 0 44px 0;}
+.uniqa-beratung-boxes .row > [class*="col-"] { margin:0 0 16px 0;}
+.uniqa-beratung-boxes .ub-box { padding:30px 16px;}
+.uniqa-beratung-boxes .ub-box .box-text .btnbox .button { min-width:100%;}
+.uniqa-beratung-team .ub-team-title { padding:0 0 30px 0;}
+.uniqa-beratung-team .ub-team-list { padding:0 0 20px 0;}
+.uniqa-beratung-team .ub-team-list .row > [class*="col-"] { -ms-flex:0 0 50%; flex:0 0 50%; max-width:50%;}
+.uniqa-beratung-team .ub-team-list .ub-team-box .imgbox { width:140px; height:140px;}
+.uniqa-beratung-team .ub-team-list .ub-team-box .textbox { padding:20px 0 0 0;}
+.uniqa-beratung-team .ub-team-list .ub-team-box .textbox .h5 { font-size:20px;}
+.uniqa-beratung-cta .ub-cta-text .btnbox .button { min-width:100%;}
+.insurance-section { padding:40px 0 40px 0;}
+.insurance-block .insurance-text { width:100%; max-width:100%;}
+.insurance-block .insurance-text h3 { max-width:calc(100% - 115px); min-height:96px;}
+.insurance-block .insurance-text .btnbox { margin:40px 0 0 0;}
+.insurance-block .insurance-text .btnbox .button { min-width:100%;}
+.insurance-block .insurance-image { width:96px; position:absolute; top:0px; right:0px; z-index:1;}
+.insurance-block .insurance-image img { max-height:96px;}
+.protection-section { padding:60px 0 24px 0;}
+.protection-title { padding:0 0 30px 0;}
+.protection-title .pt-arrow { top:100px; right:0px; -webkit-transform:rotate3d(0, 1, 0, 180deg); transform:rotate3d(0, 1, 0, 180deg);}
+.protection-customer .row > [class*="col-"] { margin:0 0 16px 0;}
+.uniqa-block .uniqa-image { width:100%; min-height:250px;}
+.uniqa-block .uniqa-map { width:100%; min-height:250px;}
+/*============ Content End ============*/
+
+/*============ Footer Start ============*/
+.footer-wrapper { padding:40px 0px;}
+.footer-block .footer-box .f-info { margin:0 0 30px 0;}
+.footer-block .footer-box .f-text { border-bottom:1px solid #D0D4DA; margin:0 0 30px 0; padding:0 0 30px 0;}
+/*============ Footer End ============*/
+
+/*============ Floating-Icons Start ============*/
+.floating-icons .iconbox-google { width:100px;}
+/*============ Floating-Icons End ============*/
+
+/*............Berater-Finden Page Start............*/
+.consultants-section { padding:0 0 60px 0;}
+.consultants-block { margin:-140px 0 0 0;}
+.consultants-main { min-height:280px;}
+.consultants-form { padding:30px 16px;}
+.consultants-form .form-step .step-title { padding:0 0 30px 0;}
+.consultants-form .form-step .form-radio .radio-box { width:50%;}
+.consultants-form .form-footer { margin:15px 0 0 0;}
+.consultants-form .form-footer .next-btnbox .button { min-width:100%;}
+.consultants-form .form-footer .number-box { top:auto; right:0px; bottom:0px;}
+.consultants-result { padding:30px 16px 0px 16px;}
+.consultants-result .cr-title { padding:0 0 30px 0;}
+.consultants-result .consultants-list .consultants-box { -ms-flex-pack:center; justify-content:center; margin:0 0 30px 0; padding:0 0 40px 0;}
+.consultants-result .consultants-list .consultants-box .box-right { width:100%; padding:20px 0 0 0;}
+.consultants-result .consultants-list .consultants-box .textbox { text-align:center;}
+.consultants-result .consultants-list .consultants-box .btnbox { padding:20px 0 0 0;}
+.consultants-result .consultants-list .consultants-box .btnbox .button { min-width:100%; padding:12px 20px;}
+.consultants-result .consultants-list .consultants-box .btnbox .button + .button { margin:20px 0 0 0;}
+/*............Berater-Finden Page End............*/
+
+/*............Unser-Standort Page Start............*/
+.standort-section { padding:40px 0 75px 0;}
+.standort-block .standort-nussdorf { padding:0 0 30px 0;}
+.standort-block .standort-nussdorf h1 { margin:0 0 25px 0;}
+.standort-block .standort-nussdorf .nussdorf-street { max-width:100%; min-height:78px;}
+.standort-block .standort-nussdorf .nussdorf-street .textbox { font-size:25px;}
+.standort-block .standort-nussdorf .nussdorf-info p { font-size:18px;}
+.standort-block .standort-box { border-top:1px solid rgba(56,136,214,0.25); border-left:none; padding:30px 0px;}
+.standort-block .standort-box .sb-lang .listbox { width:auto; margin:0 12px 0 0 !important;}
+.standort-block .standort-box .sb-lang .listbox .text { display:none;}
+.standort-cta-block { margin:-75px 0 0 0;}
+.standort-cta-block .standort-cta-list ul { margin:0px;}
+.standort-cta-block .standort-cta-list ul li { width:100%; padding:0px;}
+.anfahrt-section { padding:40px 0 0 0;}
+.anfahrt-title { padding:0 0 30px 0;}
+.anfahrt-desktop { display:none;}
+.anfahrt-mobile { display:block;}
+.services-section { padding:40px 0 20px 0;}
+.services-title { padding:0 0 40px 0;}
+.services-block .row > [class*="col-"] { -ms-flex:0 0 50%; flex:0 0 50%; max-width:50%;}
+.beratungsteam-werden-section { padding:40px 0 0 0;}
+.bw-title { padding:0 0 40px 0;}
+.bw-top-part .row { margin:0px -15px;}
+.bw-top-part .row > [class*="col-"] { padding:0px 15px;}
+.bw-top-part .bw-images { padding:15px 0 0 0;}
+.bw-top-part .bw-images .image-row .image-col { width:100%; margin:10px 0 0 0;}
+.bw-middle-part { padding:0 0 40px 0;}
+.bw-middle-part .wir-bieten .wir-bieten-list .listbox { width:50%;}
+.bw-bottom-part { padding:0 0 40px 0;}
+.bw-bottom-part .row { margin:0px -15px;}
+.bw-bottom-part .row > [class*="col-"] { padding:0px 15px;}
+.jobs-location-block .jobs-location-title { padding:0 0 30px 0;}
+.jobs-location-block .jobs-location-list { padding:0 0 40px 0;}
+.management-title { padding:0 0 30px 0;}
+.management-block .management-row { -ms-flex-wrap:nowrap; flex-wrap:nowrap; -ms-flex-pack:start; justify-content:flex-start; white-space:nowrap; overflow-x:auto; -webkit-overflow-scrolling:touch;}
+.management-block .management-row .management-col { width:100%; max-width:237px; -ms-flex:0 0 237px; flex:0 0 237px; margin:0px;}
+.beratung-vereinbaren-section { padding:60px 0 40px 0;}
+.beratung-vereinbaren-shape { height:30px;}
+.beratung-vereinbaren-block .bv-image { width:100%; text-align:center;}
+.beratung-vereinbaren-block .bv-text { width:100%; max-width:100%; padding:30px 0 0 0;}
+.beratung-vereinbaren-block .bv-text .btnbox .button { min-width:100%;}
+/*............Unser-Standort Page End............*/
+
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+
+/*============ Header Start ============*/
+/*============ Header End ============*/
+
+/*============ Banner Start ============*/
+/*============ Banner End ============*/
+
+/*============ Content Start ============*/
+/*============ Content End ============*/
+
+/*============ Footer Start ============*/
+/*============ Footer End ============*/
+
+}
+
+@media (max-width: 575px){
+
+/*============ Header Start ============*/
+/*============ Header End ============*/
+
+/*============ Banner Start ============*/
+/*============ Banner End ============*/
+
+/*============ Content Start ============*/
+/*============ Content End ============*/
+
+/*============ Footer Start ============*/
+/*============ Footer End ============*/
+
+}
+
+@media (min-width: 576px) {
+/*............Priceboxes Start............*/
+.pricecon .lastitem_health {
+    margin-bottom:90px;
+}
+
+.pricecon .lastitem_health_right {
+    margin-bottom:105px;
+}
+
+
+.pricecon .lastitem_kfz {
+    margin-bottom:138px;
+}
+
+.pricecon .lastitem_kfz_right {
+    margin-bottom:153px;
+}
+
+.pricecon .lastitem_vorsorge_left {
+    margin-bottom:104px;
+}
+
+.pricecon .lastitem_vorsorge_middle {
+    margin-bottom:52px;
+}
+
+.pricecon .lastitem_vorsorge_right {
+    margin-bottom:52px;
+}
+
+.pricecon .lastitem {
+    margin-bottom:92px;
+}
+/*............Priceboxes End............*/
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="38" viewBox="0 0 38 38">
+  <defs>
+    <filter id="Ellipse_16" x="0" y="0" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Türkisch-flage" transform="translate(-469 -724.999)">
+    <g id="Group_1894" data-name="Group 1894" transform="translate(478 731)">
+      <g id="Group_2029" data-name="Group 2029">
+        <path id="Path_708" data-name="Path 708" d="M10,0A10,10,0,1,1,0,10,10,10,0,0,1,10,0" fill="#e30a17"/>
+        <path id="Path_709" data-name="Path 709" d="M12.2,10,16.72,8.531l-2.795,3.847V7.623L16.72,11.47Zm.308,2.674a5,5,0,1,1,0-5.347,4,4,0,1,0-.3,5.648,4.07,4.07,0,0,0,.3-.3" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_1704" data-name="Group 1704" transform="translate(478 730.999)">
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Ellipse_16)">
+        <g id="Ellipse_16-2" data-name="Ellipse 16" transform="translate(9 6)" fill="none" stroke="#ecedee" stroke-width="1">
+          <ellipse cx="10" cy="10" rx="10" ry="10" stroke="none"/>
+          <ellipse cx="10" cy="10" rx="9.5" ry="9.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

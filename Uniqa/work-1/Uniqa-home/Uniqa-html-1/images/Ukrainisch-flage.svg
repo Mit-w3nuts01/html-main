@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20.001" viewBox="0 0 20 20.001">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_173" data-name="Path 173" d="M1.883,11.069A9.877,9.877,0,1,0,11.76,1.191a9.878,9.878,0,0,0-9.877,9.878" transform="translate(-1.883 -1.191)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Ukrainisch-flage" transform="translate(0 0.245)">
+    <g id="Group_398" data-name="Group 398" transform="translate(0 0)">
+      <g id="Group_397" data-name="Group 397" clip-path="url(#clip-path)">
+        <path id="Path_663" data-name="Path 663" d="M0,0H34.03V21.269H0Z" transform="translate(-1.24 -0.784)" fill="#edcd5f"/>
+        <rect id="Rectangle_134" data-name="Rectangle 134" width="34.03" height="10.634" transform="translate(-1.24 9.85)" fill="#223d85"/>
+      </g>
+    </g>
+    <g id="Ellipse_13" data-name="Ellipse 13" transform="translate(0 -0.245)" fill="none" stroke="#ecedee" stroke-width="1">
+      <circle cx="10" cy="10" r="10" stroke="none"/>
+      <circle cx="10" cy="10" r="9.5" fill="none"/>
+    </g>
+  </g>
+</svg>

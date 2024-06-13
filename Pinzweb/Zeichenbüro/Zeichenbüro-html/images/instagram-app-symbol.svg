@@ -1,0 +1,12 @@
+<svg id="instagram-app-symbol" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21.612" height="21.612" viewBox="0 0 21.612 21.612">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_105" data-name="Rectangle 105" width="21.612" height="21.612" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1" data-name="Group 1" clip-path="url(#clip-path)">
+    <path id="Path_1" data-name="Path 1" d="M15.648,0H5.964A5.971,5.971,0,0,0,0,5.964v9.684a5.971,5.971,0,0,0,5.964,5.964h9.684a5.971,5.971,0,0,0,5.964-5.964V5.964A5.971,5.971,0,0,0,15.648,0m4.047,15.648a4.051,4.051,0,0,1-4.047,4.047H5.964a4.051,4.051,0,0,1-4.046-4.047V5.964A4.051,4.051,0,0,1,5.964,1.917h9.684a4.051,4.051,0,0,1,4.047,4.047v9.684Z" transform="translate(0)" fill="#fff"/>
+    <path id="Path_2" data-name="Path 2" d="M46.537,40.97a5.569,5.569,0,1,0,5.569,5.569,5.575,5.575,0,0,0-5.569-5.569m0,9.22a3.651,3.651,0,1,1,3.651-3.651,3.655,3.655,0,0,1-3.651,3.651" transform="translate(-35.731 -35.733)" fill="#fff"/>
+    <path id="Path_3" data-name="Path 3" d="M120.327,28.251a1.405,1.405,0,1,0,.995.412,1.412,1.412,0,0,0-.995-.412" transform="translate(-103.719 -24.64)" fill="#fff"/>
+  </g>
+</svg>

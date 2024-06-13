@@ -1,0 +1,158 @@
+
+@media (min-width: 1600px){
+	p { font-size:20px;line-height:1.6; }
+	.features_sec .sec_title h3 { font-size:52px; }
+	.features_sec .sec_title h2 { font-size:70px; }
+	.features_sec .feat_list { margin-top:90px; }
+	.features_sec .feat_list h4 { margin-bottom: 38px; font-size:35px; }
+	.features_sec .feat_list .list_wrap ul { width:calc(50% - 32px); }
+	.features_sec .feat_list ul li + li { margin-top: 17px; }
+	.features_sec .feat_list ul li i { width:39px;height:39px;margin-right: 19px; font-size:25px; }
+	.offer_sec .sec_title { margin-bottom:50px; }
+	.offer_sec .sec_title h3 { font-size:60px; }
+	.offers_wrap .row { margin:0 -25px; }
+	.offers_wrap .row div[class*="col-"] { padding:0 25px; }
+	.offer_box .inner_box { padding:45px 45px 48px; }
+	.offer_box h3 { font-size:45px; }
+	.offer_box .price span { font-size:31px; }
+	.offer_box .offer_feat ul li:before { width:20px;height:20px; }
+	.winter_vacation_sec .content_box { padding-right:95px;padding-left:95px; }
+	.winter_vacation_sec .content_box h3 { font-size:52px; }
+	.winter_vacation_sec .content_box h2 { font-size:60px; }
+	.winter_vacation_sec .slider_wrap .slick-arrow { width:160px;height:160px; }
+	.winter_vacation_sec .slider_wrap .slick-arrow:after { width:21px;height:35px; }
+	.winter_vacation_sec .slider_wrap .slick-prev { left:-80px; }
+	.winter_vacation_sec .slider_wrap .slick-next { right:-80px; }
+	.our_rooms_sec .sec_title h2 a i { margin-left:40px; }
+	.our_rooms_sec .rooms_content ul li { font-size:20px;line-height:1.7;padding-left:40px; }
+	.our_rooms_sec .rooms_content ul li:before {}
+	.our_rooms_sec .rooms_content .text_block { padding-left:60px; }
+	.our_rooms_sec .slider_wrap { margin:50px 0 70px; }
+	.our_rooms_sec .slider_wrap .slick-arrow { width:104px;height:104px; }
+	.our_rooms_sec .slider_wrap .slick-prev { left:-52px; }
+	.our_rooms_sec .slider_wrap .slick-next { right:-52px; }
+
+}
+
+
+@media (min-width: 1400px) and (max-width: 1700px){
+
+}
+
+
+@media (min-width: 1301px) and (max-width: 1399px){
+
+    
+   
+}
+
+@media (min-width: 1200px) and (max-width: 1300px){
+
+    
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    
+}
+
+
+@media (max-width: 991px){
+
+}
+
+@media (max-width: 767px){
+
+    
+
+}
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+	.header_main .center_logo a { padding: 10px 15px; }
+	.header_main .center_logo img { max-width: 120px; width: auto; height: auto; }
+	.banner_main .banner_image { height: 350px; overflow: hidden; }
+	.banner_main .banner_image img { height: 100%; object-fit: cover; } 
+	.banner_main .switch_button a span { font-size: 16px; }
+
+	.features_sec { padding: 40px 0 40px; }
+	.features_sec .sec_title h3 { font-size: 25px; }
+	.features_sec .sec_title h2 { font-size: 30px; }
+	.features_sec .sec_title { margin-bottom: 17px; }
+	.features_sec .images_wrap { margin-top: 30px; }
+	.features_sec .images_wrap .imgbox { font-size: 0; line-height: normal; }
+	.images_wrap .row { -ms-flex-wrap: nowrap; flex-wrap: nowrap; overflow-x: auto; }
+	.images_wrap .row [class^="col-"]{ width: 365px; min-width: 365px; }
+
+	.features_sec .feat_list { margin-top: 25px; }
+	.features_sec .feat_list h4 { font-size: 25px; }
+	.features_sec .feat_list .list_wrap ul { width: 100%; }
+	.features_sec .feat_list ul li i { min-width: 30px; }
+	.features_sec .feat_list ul + ul { margin-top: 12px; }
+
+	.offer_sec { padding: 40px 0 50px; }
+	.offer_sec .sec_title h2 { font-size: 30px; }
+	.offer_sec .sec_title { margin-bottom: 20px; }
+	.offers_wrap .row { -ms-flex-wrap: nowrap; flex-wrap: nowrap; overflow-x: auto; }
+	.offers_wrap .row [class^="col-"]{ width: 365px; min-width: 365px; }
+	.offer_box .inner_box { padding: 20px 20px 30px; }
+	.offer_box h3 { font-size: 30px; margin-bottom: 15px; }
+	.offer_box .offer_info h6 { margin: 10px 0;font-size: 16px; }
+	body { font-size: 16px; }
+	.offer_box .offer_feat ul li:before { width: 22px;height: 22px; }
+	.offer_box .offer_feat ul li + li { margin-top: 12px; }
+	.offer_box .btnbox { margin-top: 20px; }
+	.btn-outline { font-size: 17px; min-height: 40px; }
+	.btn-solid { font-size: 17px; min-height: 40px; }
+	.offer_box .price i { font-size: 16px; }
+	.offer_box .price span { font-size: 20px; }
+
+	.winter_vacation_sec { padding: 40px 0; }
+	.winter_vacation_sec .content_wrap .row .col-lg-5 { max-width: 100%;flex: 0 0 100%; }
+	.winter_vacation_sec .content_box { padding: 0 20px; }
+	.winter_vacation_sec .content_box h3 { font-size: 25px; }
+	.winter_vacation_sec .content_box h2 { font-size: 30px; margin-bottom: 16px; }
+	.winter_vacation_sec .content_wrap .row .col-lg-7 { max-width: 100%;flex: 0 0 100%; padding-top: 30px !important;  }
+	.winter_vacation_sec .slider_wrap .slick-arrow { width: 80px;height: 80px; }
+	.winter_vacation_sec .slider_wrap .slick-prev:after { right: 13px; }
+	.winter_vacation_sec .slider_wrap .slick-next:after { left: 13px; }
+
+
+	.our_rooms_sec { padding: 40px 0 20px; }
+	.our_rooms_sec .sec_title h2 { font-size: 30px; }
+	.our_rooms_sec .sec_title h2 a i { margin-left: 20px; width: 25px; height: 15px; }
+	.our_rooms_sec .sec_title { margin-bottom: 20px; }
+	.our_rooms_sec .rooms_content .text_wrap { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+	.our_rooms_sec .rooms_content .list_block h6 { font-size: 18px; margin-bottom: 15px; }
+	.our_rooms_sec .rooms_content ul li:before { width: 22px; height: 22px; top: 0; }
+	.our_rooms_sec .rooms_content .text_block { width: 100%; padding-top: 25px; padding-left: 0; }
+	p + p { margin-top: 15px; }
+	.our_rooms_sec .rooms_content .list_block { width: 100%; }
+
+	.our_rooms_sec .slider_wrap { padding: 0 20px; margin: 20px 0 20px; }
+	.our_rooms_sec .slider_wrap .slick-arrow { width: 70px;height: 70px; }
+	.our_rooms_sec .slider_wrap .slick-prev { left: -35px; }
+	.our_rooms_sec .slider_wrap .slick-prev:after { left: 15px; }
+	.our_rooms_sec .slider_wrap .slick-next { right: -35px; }
+	.our_rooms_sec .slider_wrap .slick-next:after { right: 15px; }
+
+	.bottom_buttons .btn-tooltip { width: 55px;height: 55px; }
+	.bottom_buttons .btn-tooltip .btn-icon { width: 25px; height: 25px; }
+	.banner_main .bottom_buttons { bottom: 15px; }
+	.bottom_buttons .btn-tooltip .btn-icon img { width: auto; height: auto; max-width: 100%; max-height: 100%; }
+
+
+
+}

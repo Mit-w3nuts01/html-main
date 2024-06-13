@@ -1,0 +1,31 @@
+/advisors/
+index.html_Step-3.png:
+Image-Upload does not need to work!
+
+index.html_Step-4.png:
+Please just use dummy text for the dropdown boxes selection
+
+index.html_Step-6.png:
+- Multi-Select must be possible
+
+index.html_Step-7.png:
+Once the languages are selected, a confirmation popup should appear where user has to confirm, that he speaks the choosen languages
+
+Step-7-A (no screenshot available):
+Drag and Drop those languages so that it is possible to sort the selection.
+example: I select German, English, Turkish on Step-7 . Then I need to confirm my selection and then I need to re-order those selections so: 1. German, 2. English, 3. Turkish!
+
+index.html_Step-8.png:
+Alle options must be rated. Otherwise you cannot move to next step
+
+index.html_Step-9.png:
+IMPORTANT: no selection like you see on the screenshot. User needs to re-order those boxes from most relevant to less relevant per drag and drop
+
+index.html_Step-10.png:
+single-select
+
+index.html_Step-11.png:
+IMPORTANT: no selection like you see on the screenshot. User needs to re-order those boxes from most relevant to less relevant per drag and drop
+
+index.html_Step-12.png:
+IMPORTANT: no selection like you see on the screenshot. User needs to re-order those boxes from most relevant to less relevant per drag and drop

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="38" viewBox="0 0 38 38">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_783" data-name="Path 783" d="M3.975,10.455a10,10,0,1,0,10-10,10,10,0,0,0-10,10" fill="none"/>
+    </clipPath>
+    <filter id="Ellipse_16" x="0" y="0" width="38" height="38" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Deutsch-flage" transform="translate(547 733.999) rotate(180)">
+    <g id="Group_1975" data-name="Group 1975" transform="translate(514.025 707.545)">
+      <g id="Group_1975-2" data-name="Group 1975" clip-path="url(#clip-path)">
+        <path id="Path_778" data-name="Path 778" d="M27.955,0H10.976l2,6.925h14.98Z" fill="#d3001f"/>
+        <rect id="Rectangle_848" data-name="Rectangle 848" width="13.98" height="6.963" transform="translate(13.975 6.925)" fill="#fff"/>
+        <path id="Path_779" data-name="Path 779" d="M27.955,13.887H13.976v7.022s1.181-.1,2.639-.1h11.34Z" fill="#d3001f"/>
+        <path id="Path_780" data-name="Path 780" d="M11.488,0H0V6.925H13.309Z" fill="#0b0b0b"/>
+        <path id="Path_781" data-name="Path 781" d="M13.309,6.925H0v6.963H14.98Z" fill="#d3001e"/>
+        <path id="Path_782" data-name="Path 782" d="M14.981,13.887H0v7.022s1.181-.1,2.64-.1h14.31Z" fill="#ffc000"/>
+      </g>
+    </g>
+    <g transform="matrix(-1, 0, 0, -1, 547, 734)" filter="url(#Ellipse_16)">
+      <g id="Ellipse_16-2" data-name="Ellipse 16" transform="translate(29 26) rotate(180)" fill="none" stroke="#ecedee" stroke-width="1">
+        <ellipse cx="10" cy="10" rx="10" ry="10" stroke="none"/>
+        <ellipse cx="10" cy="10" rx="9.5" ry="9.5" fill="none"/>
+      </g>
+    </g>
+    <line id="Line_298" data-name="Line 298" x2="5" y2="18" transform="translate(525.5 709)" fill="none" stroke="#ecedee" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17">
+  <g id="login-icon" transform="translate(1 1)">
+    <rect id="Rectangle" width="14" height="10" rx="2" transform="translate(0 5)" fill="none" stroke="#617384" stroke-width="2"/>
+    <g id="Rectangle-2" transform="translate(4)">
+      <path id="Rectangle-2-2" data-name="Rectangle" d="M3,0A3,3,0,0,1,6,3V5H0V3A3,3,0,0,1,3,0Z" fill="none" stroke="#617384" stroke-width="2" fill-rule="evenodd"/>
+    </g>
+    <line id="Line" y2="3" transform="translate(7 8)" fill="none" stroke="#617384" stroke-linecap="round" stroke-width="2"/>
+  </g>
+</svg>

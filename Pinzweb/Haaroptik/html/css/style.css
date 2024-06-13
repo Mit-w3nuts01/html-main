@@ -1,0 +1,412 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*============ Default Css Start ============*/
+
+
+html,
+body { 
+	min-height:100%; 
+}
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body {	
+	font-family:"neue-haas-unica";
+	font-size:22px;
+	color:#000000;
+	font-weight:200;
+	line-height: normal;
+	background:#FFF;
+	margin:0;
+	padding:0;
+}
+li, ul, ol { 
+	list-style:none; 
+	margin:0;
+	padding:0;
+}
+a, a img {
+	text-decoration:none;
+	border:0;
+	outline:none !important;
+}
+a,
+a:hover { color: inherit; }
+a, button, input[type=submit] {
+	outline:none;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+a:hover,
+a:focus {
+	text-decoration:none;
+	outline:none;
+}
+:focus {
+	outline:none;
+}
+img,
+svg {
+	max-width:100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-style:normal;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+  color: #000000;
+}
+
+h1 { font-size: 60px;line-height: 1.3; }
+h2 { font-size: 45px;line-height: 1.33; }
+h3 { font-size: 40px;line-height: 1.32;}
+h6 { font-size: 20px;line-height: 1.4;}
+
+input, textarea { 
+	outline:none !important; 
+}
+::-webkit-input-placeholder {
+	color:inherit; 
+	opacity:1;
+}
+::-moz-placeholder {
+	color:inherit;
+	opacity:1;
+}
+:-ms-input-placeholder {
+	color:inherit; 
+	opacity:1;
+}
+:-moz-placeholder {
+	color:inherit;
+	opacity:1;
+}
+
+.wrapper_main {
+	position:relative;
+	width:100%;
+	min-height:100%;
+	overflow:hidden;
+}
+
+/*============ Default Css End ============*/
+
+/*============ Bootstrap Class Overwriter CSS Code Start ============*/
+
+.container { padding-right: 15px; padding-left: 15px; width: 100%; margin: 0 auto;}
+.big-container {  width: 100%; margin: 0 auto;}
+
+@media (min-width:576px){
+  .container {
+    max-width:540px;
+  }
+}
+@media (min-width:768px){
+  .container {
+    max-width:720px;
+  }
+}
+@media (min-width:992px){
+  .container{
+    max-width:960px;
+  }
+}
+@media (min-width:1200px){
+  .container {
+    max-width:1170px;
+  }  
+}
+@media (min-width:1299px){
+  .container{
+    max-width: 1230px;
+  }
+}
+
+@media (min-width:1500px){
+	.container{
+	  max-width: 1475px;
+	}
+  }
+
+
+
+
+/*============ Common Style Start ============*/
+
+
+
+/*-Elements-Style Start-*/
+
+p { font-size:20px;line-height:1.7; margin:0px; padding:0px;}
+strong, b { font-weight: normal;}
+p strong { font-weight: normal; }
+
+body:after {position: fixed;top: 0;left: 0; width: 100%;height: 100%;content: '';background: rgba(255,255,255,0.90);opacity: 0;-webkit-transition: all ease-in-out 0.5s;transition: all ease-in-out 0.5s; z-index: 140;pointer-events: none;}
+/*-Elements-Style End-*/
+
+
+.btnbox { display: flex; }
+
+
+/*============ Common Style End ============*/
+
+
+/*============ Header Style Start ============*/
+
+
+
+
+
+.menu-btn {position: relative; display: none;width:35px; height:24px; }
+.menu-btn span {display: block; width:100%; height:3px; position:relative; top:10px; background:#A4B244; border-radius:0px;}
+.menu-btn span:before,
+.menu-btn span:after { content:""; width:100%; height:3px; background:#A4B244; border-radius:0px; position:absolute; left:0px; z-index:1;-webkit-transition-duration:.3s, .3s; transition-duration:.3s, .3s; -webkit-transition-delay:.15s, 0s; transition-delay:.15s, 0s;}
+.menu-btn span:before { top:-10px;-webkit-transition-property:top, transform; transition-property:top, transform; }
+.menu-btn span:after { bottom:-10px;-webkit-transition-property:bottom, transform; transition-property:bottom, transform; }
+.menu-btn.active span { background:none !important;}
+.menu-btn.active span:before,
+.menu-btn.active span:after { -webkit-transition-delay:0s, .15s; transition-delay:0s, .2s;}
+.menu-btn.active span:before { top:0px; -webkit-transform:rotate(-45deg); transform:rotate(-45deg);}
+.menu-btn.active span:after { bottom:0px; -webkit-transform:rotate(45deg); transform:rotate(45deg);}
+
+
+
+
+body.open-nav { overflow: hidden; }
+
+
+.header_main {position: relative;}
+.header_main.fixed .navigation_wrap .navigation_bar{background-color: #000000; height: 150px; }
+.header_main .navigation_wrap {position: relative;}
+.header_main .navigation_wrap .navigation_bar {position: fixed; width: 100%; left: 0; padding: 22px 0 0; z-index: 1;  height: 185px; transition: all ease-in-out 0.3s;}
+.header_main .navigation_bar .nav_bar {margin: 0 360px;}
+.header_main .navigation_bar .nav_bar ul {display: flex; align-items: center; justify-content: space-between;}
+.header_main .navigation_bar .nav_bar ul li {position: relative;}
+.header_main .navigation_bar .nav_bar ul li a {font-size: 22px; line-height: 1.36; transition: all ease-in-out 0.3s; position: relative; font-weight: 300; color: #FFF;}
+.header_main .navigation_bar .nav_bar ul li a::after { position: absolute; content: ''; height: 2px; left: 0; bottom: -2px; background-color: #CE9B32; transition: all ease-in-out 0.3s; width: 0;} 
+.header_main .navigation_bar .nav_bar ul li a:hover::after {width: 100%;} 
+.header_main .navigation_bar .nav_bar ul .logo { transition: all ease-in-out 0.3s;}
+.header_main .navigation_bar .nav_bar ul .logo a { display: flex; width: 100%; transition: all ease-in-out 0.3s;}
+.header_main.fixed .navigation_wrap .navigation_bar .nav_bar ul .logo a { width: 150px; }
+.header_main .navigation_bar .nav_bar ul .logo a:hover::after {display: none;}
+.header_main .navigation_bar .nav_bar ul .logo { max-width: 241px; width: 100%; display: flex; justify-content: center;}
+.header_main .navigation_bar .nav_bar ul .logo i {display: flex;}
+.header_main .navigation_bar .nav_bar ul .logo i img { max-width: 100%; width: 100%; height: auto; transition: all ease-in-out 0.3s;} 
+
+
+/*============ Header Style End ============*/
+
+/*============ Banner Style Start ============*/
+
+.banner_main {background-color: #000000;}
+.banner_main .bannerbg {position: relative; padding: 346px 0 160px;}
+.banner_main .bannerbg .modernhair_wrap {position: relative;}
+.banner_main .hair_sec {display: flex;gap: 92px;align-items: center;flex-wrap: wrap;}
+.banner_main .hair_sec .video_sec {width: 100%;height: 530px;max-width: 738px;padding: 0 15px 0 0;}
+.banner_main .hair_sec .video_sec iframe {width: 100%; height: 100%; border-radius: 20px;}
+.banner_main .hair_sec .modernhair_grp {width: 100%;max-width: 550px;}
+.banner_main .hair_sec .modernhair_text {padding: 0 0 68px;}
+.banner_main .hair_sec .modernhair_text h1 {color: #CE9B32; font-weight: 500; padding: 0 0 36px;}
+.banner_main .hair_sec .modernhair_text p {color: #FFF; font-size: 26px; font-weight: 300;}
+.banner_main .hair_sec .btngrp {width: 100%;}
+.banner_main .hair_sec .btngrp .viagrp {display: flex; padding: 24px 0 0; gap: 11px; align-items: center; max-width: 280px; margin: 0 60px;}
+.banner_main .hair_sec .btngrp .btnbox {margin: 0;}
+.banner_main .hair_sec .btngrp .btnbox a {font-size: 22px; color: #FFF; background-color: #D89100; height: 58px; display: inline-flex; align-items: center; text-transform: uppercase; padding: 0 33px; border-radius: 50px; line-height: 1.13;}
+.banner_main .hair_sec .btngrp .viatext {width: 180px;}
+.banner_main .hair_sec .btngrp .viatext p {color: #FFF; font-weight: 300; }
+
+
+
+
+
+
+/*============ Banner Style End ============*/
+
+/*============ Section Style start ============*/
+
+.hairoptics_sec {padding: 161px 0 80px;}
+.hairoptics_sec .hairoptics_wrap {display: flex; width: 100%;  align-items: center;}
+.hairoptics_sec .hairoptics_dtl {width: 54%; }
+.hairoptics_sec .hairoptics_dtl .hairoptics_text {width: calc(56vw + (1500px / 2) - 100% - 30px  + 95px); float: right;  padding: 69px 150px 67px 238px; margin-right: -84px;  box-shadow: 15px 15px 15px 15px rgb(105,96,215,0.09); background-color: #FFF; border-radius: 0 20px 20px 0;}
+.hairoptics_sec .hairoptics_dtl h2 {color: #CE9B32; font-weight: 500; padding: 0 0 38px;}
+.hairoptics_sec .hairoptics_dtl span {font-size: 26px; color: #040404; line-height: 1.11;}
+.hairoptics_sec .hairoptics_dtl p {padding: 29px 0 0; font-size: 20px; font-weight: 1.7; color: #040404;}
+.hairoptics_sec .hairoptics_dtl .btnbox {padding: 30px 0 0 ;}
+.hairoptics_sec .hairoptics_dtl .btnbox a {background-color: #D89100; height: 58px; display: inline-flex; align-items: center; color: #FFF; text-transform: uppercase; border-radius: 50px; padding: 0 44px; font-size: 22px; line-height: 1.13;}
+.hairoptics_sec .hairoptics_wrap .harioptics_img {width: 44%; position: relative;}
+.hairoptics_sec .hairoptics_wrap .harioptics_img .hari_img {width: 46.563vw; height: 100%; float: left; position: relative; border-radius: 25px 0 0 25px; z-index: -1;}
+.hairoptics_sec .hairoptics_wrap .harioptics_img .hari_img img {width: 100%; height: 100%; vertical-align: top; object-fit: cover; border-radius: 25px 0 0 25px;}
+
+
+.pigmentation_sec {background-color: #000000; margin: 80px 0; padding: 143px 0 156px; border-radius: 50px;}
+.pigmentation_sec .pigmentation_dtl {max-width: 1150px; margin: 0 auto; text-align: center;}
+.pigmentation_sec .pigmentation_brief {padding: 0 0 116px;}
+.pigmentation_sec .pigmentation_brief h2 {color: #CE9B32; line-height: 1.37; padding: 0 0 39px;}
+.pigmentation_sec .pigmentation_brief p {color: #FFF; font-size: 20px; font-weight: 300; max-width: 791px; margin: 0 auto;}
+.pigmentation_sec .pigmentation_brief p strong {font-weight: 500;}
+.pigmentation_sec .pigmentation_brief p:not(:last-child) {margin-bottom: 37px;}
+.pigmentation_sec .pigmentation_block {padding: 0 0 98px;}
+.pigmentation_sec .pigmentation_block .pigmentation_grp {display: flex; justify-content: space-between; align-items: center; gap: 130px;}
+.pigmentation_sec .pigmentation_grp .advatages_block {max-width: 299px;}
+.pigmentation_sec .advatages_block .adv_pic {padding: 0 0 30px; max-width: 51px; width: 100%; height: 100%; margin: 0 auto;}
+.adv_pic span {display: flex;}
+.adv_pic img {max-width: 100%; width: 100%; height: auto;}
+.adv_ttl {padding: 0 0 10px;}
+.adv_ttl h4 {font-size: 26px; color: #CE9B32; line-height: 1.38; text-transform: uppercase; font-weight: 500; }
+.adv_text p {color: #FFF; font-size: 18px; font-weight: 300;}
+.pigmentation_dtl .btnbox {justify-content: center; padding: 100px 0 0;}
+.pigmentation_dtl .btnbox a {background-color: #D89100; font-size: 22px; color: #FFF; text-transform: uppercase; display: inline-flex; align-items: center; height: 58px; border-radius: 50px; padding: 0 33px; font-weight: 400; line-height: 1.13;}
+
+.pigmentation_sec .btn_grp {position: relative;}
+.pigmentation_sec .btn_grp .order_grp {position: relative;}
+.pigmentation_sec .btn_grp .order_grp .order_img {position: absolute; right: 28%; bottom: -15px;}
+.pigmentation_sec .btn_grp .order_grp .order_text {position: absolute; right: 13%; bottom: 40px;}
+.pigmentation_sec .btn_grp .order_grp .order_text .price {color: #FFF; font-weight: 400; font-size: 35px; line-height: 1.11;}
+.pigmentation_sec .btn_grp .order_grp .order_text p {color: #FFF; font-weight: 300; font-size: 20px; line-height: 1.35;}
+
+.success_story {padding: 64px 0;}
+.success_story .success_wrap {text-align: center; max-width: 1200px; margin: 0 auto;}
+.success_story .success_wrap .success_grp {width: 100%; margin: 0; }
+.success_story .success_grp_photo {display: flex; justify-content: center; align-items: center; gap: 187px;padding: 0 0 40px;}
+.success_story .success_wrap .success_grp .sucess_ttl {padding: 0 0 79px;} 
+.success_story .success_wrap .sucess_ttl h2 {color: #CE9B32; line-height: 1.37; font-weight: 500;}
+.success_story .success_wrap .sucess_photogrp {position: relative;}
+.success_story .success_wrap .sucess_photogrp .first_sucess {max-width: 249px; height: 249px; width: 100%; border-radius: 50%;}
+.success_story .success_wrap .sucess_photogrp .first_sucess img {display: flex; max-width: 100%; height: 100%; width: 100%; object-fit: cover; border-radius: 50%;}
+.success_story .success_wrap .sucess_photogrp .second_sucess {max-width: 137px; height: 137px; width: 100%; border-radius: 50%; position: absolute;
+left: -55px; top: 35%;}
+.success_story .success_wrap .sucess_photogrp .second_sucess img {display: flex; max-width: 100%; height: 100%; width: 100%; object-fit: cover; border-radius: 50%;}
+.success_story .success_grp_photo .success_text {padding-top: 95px; width: 289px; margin: 0 auto;}
+.success_story .success_grp_photo .success_text p {font-family: 'Bilo'; line-height: 1.3; font-style: italic; font-size: 20px; color: #000000; font-weight: 500; padding: 0 0 24px;}
+.success_story .success_grp_photo .success_text span {font-family: 'Bilo'; font-size: 16px; font-weight: 300; line-height: 1.25; color: #040404;}
+.success_story .btnbox {padding: 40px 0 0; justify-content: center;}
+.success_story .btnbox a {background-color: #D89100; font-size: 22px; color: #FFF; text-transform: uppercase; display: inline-flex; align-items: center; height: 58px; border-radius: 50px; padding: 0 33px; font-weight: 400; line-height: 1.13;}
+
+
+
+.question_sec {background-color: #000000; margin: 98px 0; padding: 164px 0 177px; border-radius: 50px;}
+.question_sec .question_wrap {max-width: 1096px; margin: 0 auto; text-align: center; }
+.question_sec .question_ttl {padding: 0 0 79px;}
+.question_sec .question_ttl h3 {color: #CE9B32; font-weight: 500; line-height: 1.37; padding: 0 0 34px;}
+.question_sec .question_ttl p {font-size: 22px; color: #FFF; font-weight: 300; line-height: 1.59;}
+.question_sec .question_block {display: flex; justify-content: space-between; align-items: center; gap: 35px;}
+.question_sec .question_block .question_box {background-color: #FFF;}
+.question_sec .question_block .question_box .box_ttl {border: 2px solid #CE9B32;}
+.question_sec .question_block .question_box .box_ttl h5 {color: #191919; padding: 35px 39px 48px 41px; font-size: 22px; font-weight: 700; line-height: 1.45;}
+.question_sec .question_mark {position: relative;}
+.question_sec .question_mark .question_img_wrap { position: absolute; bottom: 0; left: 0; right: 0; display: flex; height: 0; align-items: center; justify-content: center;}
+.question_sec .question_mark .question_img_wrap i {display: inline-flex; background-color: #CE9B32; border-radius: 50px; padding: 7px 16px;}
+.question_sec .btngrp {position: relative;}
+.question_sec .btngrp .btnbox {justify-content: center; padding: 94px 0 25px;}
+.question_sec .btngrp .btnbox a {background-color: #D89100; font-size: 22px; color: #FFF; text-transform: uppercase; display: inline-flex; align-items: center; height: 58px; border-radius: 50px; padding: 0 33px; font-weight: 400; line-height: 1.13;}
+.question_sec .btngrp .btninside { position: relative;}
+.question_sec .btngrp .viagrp {display: flex;  position: absolute; left: 100%; top: 100%; margin-top: 25px; margin-left: -52px; width: 326px;}
+.question_sec .btngrp .viagrp .viaerrow {width: 94px;}
+.question_sec .btngrp .viagrp .viaerrow img { width: 100%; float: left;}
+.question_sec .btngrp .viagrp .viatext { width: calc(100% - 94px); padding: 20px 0 0 0;}
+.question_sec .btngrp .viagrp .viatext p {font-size: 20px; color: #FFF; font-weight: 300; line-height: 1.35;}
+
+.hairoptics_sec.initial_consultation {padding: 80px 0;}
+.hairoptics_sec.initial_consultation .hairoptics_wrap {flex-direction: row-reverse;}
+.hairoptics_sec.initial_consultation .hairoptics_dtl {width: 54%; }
+.hairoptics_sec.initial_consultation .hairoptics_dtl .hairoptics_text {width: calc(56vw + (1500px / 2) - 100% - 30px  + 95px); float: left;  padding: 90px 400px 111px 151px; margin-left: -84px;  box-shadow: 15px 15px 15px 15px rgb(105,96,215,0.09); background-color: #FFF; border-radius: 20px 0 0 20px;}
+.hairoptics_sec.initial_consultation .hairoptics_dtl h2 {color: #CE9B32; font-weight: 500; padding: 0 0 38px;}
+.hairoptics_sec.initial_consultation .hairoptics_dtl span {font-size: 26px; color: #040404; line-height: 1.11;}
+.hairoptics_sec.initial_consultation .hairoptics_dtl p {padding: 29px 0 0; font-size: 20px; font-weight: 1.7; color: #040404;}
+.hairoptics_sec.initial_consultation .hairoptics_dtl .btnbox {padding: 68px 0 0 ;}
+.hairoptics_sec.initial_consultation .hairoptics_dtl .btnbox a {background-color: #D89100; height: 58px; display: inline-flex; align-items: center; color: #FFF; text-transform: uppercase; border-radius: 50px; padding: 0 44px; font-size: 22px; line-height: 1.13;}
+.hairoptics_sec.initial_consultation .hairoptics_wrap .harioptics_img {width: 44%; position: relative;}
+.hairoptics_sec.initial_consultation .hairoptics_wrap .harioptics_img .hari_img {width: 46.563vw; height: 100%; float: right; position: relative; border-radius: 0 25px 25px 0; z-index: -1;}
+.hairoptics_sec.initial_consultation .hairoptics_wrap .harioptics_img .hari_img img {width: 100%; height: 100%; vertical-align: top; object-fit: cover; border-radius: 0 25px 25px 0;}
+.hairoptics_sec.initial_consultation .communication {margin: 0;}
+.hairoptics_sec.initial_consultation .communication ul {margin: 0;}
+.hairoptics_sec.initial_consultation .communication ul li {display: flex; gap: 23px; align-items: center; }
+.hairoptics_sec.initial_consultation .communication ul li span {font-size: 20px; color: #040404; font-weight: 700; display: inline-flex;}
+.hairoptics_sec.initial_consultation .communication ul li span a {font-weight: 300; display: inline-flex; }
+.hairoptics_sec.initial_consultation .communication ul li:not(:last-child) {margin-bottom: 17px; }
+.hairoptics_sec.initial_consultation .communication ul li a {font-weight: 700; display: inline-flex; font-size: 20px;}
+.hairoptics_sec.initial_consultation .communication ul li i {display: inline-flex; min-width: 25px; min-height: 25px; align-items: center; }
+.hairoptics_sec.initial_consultation .communication ul li i img {display: inline-flex;}
+
+
+.more_sec {padding: 56px 0 173px;}
+.more_sec .more_grp {text-align: center;}
+.more_sec .more_grp .more_ttl {padding: 0 0 57px;}
+.more_sec .more_grp .more_ttl h2 {color: #CE9B32; font-weight: 500; line-height: 1.37;}
+.more_sec .more_grp .morimg_block {margin: 0;}
+.more_sec .more_grp .morimg_block .more_img {display: flex; justify-content: space-between;}
+.more_sec .more_grp .morimg_block .more_img .head_img {max-width: 314px; height: 314px; display: flex;}
+.more_sec .more_grp .morimg_block .more_img .head_img img {max-width: 100%; height: auto; max-height: 100%; width: 100%; object-fit: cover; border-radius: 20px; }
+.morimg_block {position: relative;}
+.morimg_block .inner_quote {display: flex;  position: absolute; right: 0; top: 0; margin-top: -110px; margin-right: 136px; width: 326px; }
+.morimg_block .inner_quote .viatext {width: calc(100% - 94px); margin: -20px 0 0 0;}
+.morimg_block .inner_quote .viatext p {color: #000000; font-size: 20px; font-weight: 300; line-height: 1.35;}
+.morimg_block .inner_quote .viaerrow {width: 94px;}
+.morimg_block .inner_quote .viaerrow img {width: 100%; float: left;}
+
+/*============ Section Style end ============*/
+
+/* ========== footer:st ================= */
+.footer_main{max-width: 1814px;margin: 0 auto;background: #040404;padding: 74px 0;}
+.footer_box{display: flex;justify-content: space-between;max-width: 890px;margin: 0 auto;}
+.footer_box .firstbox{display: block;max-width: 232px;}
+.footer_box h6{font-family: 'Bilo';font-weight: 500; color: #ffffff;padding: 0 0 16px;}
+.footer_box .firstbox .addressbox{font-family: 'Bilo';font-weight: 300;font-size: 20px;line-height: 1.5;padding: 0 0 16px;color: #ffffff;}
+.footer_box .telmailbox{display: block;padding: 0 0 4px;color: #ffffff;}
+.footer_box .telmailbox span{display: flex;font-weight: 500; font-size: 20px;line-height: 1.5;color: #ffffff;}
+.footer_box .telmailbox span a{display: flex;align-items: center; font-weight: 300; font-size: 20px;line-height: 1.5;color: #ffffff; margin: 0 0 0 15px;}
+.footer_box .telmailbox span + span{padding: 15px 0 0 0;}
+.footer_box .telmailbox .whtsapp a{margin: 0;}
+.footer_box .telmailbox .whtsapp a img{margin: 0 15px 0 0;}
+
+.footer_box .middlebox{color: #ffffff;}
+.footer_box .middlebox ul{display: block;}
+.footer_box .middlebox ul li{display: block;position: relative;}
+.footer_box .middlebox ul li::after{position: absolute;content: '';height: 8px;width: 8px;}
+.footer_box .middlebox ul li a{display: flex;align-items: center; font-weight: 300; font-size: 20px;line-height: 1.5;color: #ffffff;}
+
+.footer_box .thirdbox{color: #ffffff;}
+.footer_box .thirdbox .socialbox{}
+.footer_box .thirdbox .socialbox .icon{}
+.footer_box .thirdbox .socialbox .icon a{}
+.footer_box .thirdbox ul{}
+.footer_box .thirdbox ul li{}
+.footer_box .thirdbox ul li a{}
+/* ========== footer:nd ================= */
+
+
+
+
+
+/* Mit Style Start */
+
+.hair_pigmentation_sec { width: 100%; position: relative; padding: 84px 0 0 0; }
+.hair_pigmentation_inner { width: 100%; position: relative; background-color: #ffffff; -webkit-box-shadow: 0 0 99px rgba(0,0,0,0.16); -moz-box-shadow: 0 0 99px rgba(0,0,0,0.16); -ms-box-shadow: 0 0 99px rgba(0,0,0,0.16); box-shadow: 0 0 99px rgba(0,0,0,0.16); border-radius: 25px; padding: 71px 126px 88px; }
+.hair_pigmentation_heading { width: 100%; position: relative; text-align: center; }
+.hair_pigmentation_heading h2 { font-weight: 500; line-height: 1.3777778; color: #CE9B32; }
+.hair_pigmentation_heading h6 { font-weight: normal; font-size: 26px; line-height: 1.115384; color: #040404; padding: 16px 0 0 0; }
+.hair_pigmentation_heading { padding: 0 0 76px 0; }
+.hair_pigmentation_bottom { width: 100%; position: relative; display: -ms-flexbox; display: flex; align-items: flex-start; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+.hair_pigmentation_left_img { width: calc(100% - 538px); padding: 0 39px 0 0; }
+.hair_pigmentation_right_select { width: 538px; }
+.hair_pigmentation_right_select_inner { width: 100%; position: relative; }
+.hair_pigmentation_select_list { display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; margin: 0 -11px; row-gap: 27px; }
+.hair_pigmentation_select_list li { display: -ms-flexbox; display: flex; padding: 0 11px; width: 50%; }
+.hair_pigmentation_img_box { position: relative; width: 100%; overflow: hidden; border-radius: 25px; }
+.hair_pigmentation_img_box:after { content: ''; display: block; padding: 36.365% 50%; }
+.hair_pigmentation_img_box img { width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; opacity: 0; visibility: hidden; }
+.hair_pigmentation_img_box img.active_image { opacity: 1; visibility: visible; }
+.hair_pigmentation_select_box,
+a.hair_pigmentation_select_box { width: 100%; position: relative; display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; align-items: center; align-content: center; justify-content: center; border-radius: 15px; border: solid 1px #CE9B32; padding: 29px 15px 26px; text-align: center; }
+.hair_pigmentation_select_box .top_select_title { font-family: "neue-haas-unica",sans-serif; font-size: 18px; font-weight: 300; color: #040404; line-height: 1.333333; }
+.hair_pigmentation_select_box .bottom_select_value { font-weight: 400; font-size: 29px; line-height: 1.137931; color: #040404; padding: 8px 0 0 0; }
+.hair_pigmentation_select_box .bottom_select_arragement { font-weight: 400; font-size: 20px; line-height: 1.15; color: #040404; padding: 11px 0 0 0; }
+.hair_pigmentation_select_box.active_selector_btn ,
+a.hair_pigmentation_select_box.active_selector_btn { background-color: #FFF1D4; }
+/* Mit Style End */

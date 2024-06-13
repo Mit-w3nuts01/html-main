@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'ClearSans-Bold';
+    src: url('ClearSans-Bold.woff2') format('woff2'),
+        url('ClearSans-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ClearSans';
+    src: url('ClearSans.woff2') format('woff2'),
+        url('ClearSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'URGHTYPE';
+    src: url('URGHTYPE.woff2') format('woff2'),
+        url('URGHTYPE.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oswald-SemiBold';
+    src: url('Oswald-SemiBold.woff2') format('woff2'),
+        url('Oswald-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham-Book';
+    src: url('Gotham-Book.woff2') format('woff2'),
+        url('Gotham-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

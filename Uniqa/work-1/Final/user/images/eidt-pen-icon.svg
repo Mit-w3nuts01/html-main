@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15.874" height="16.04" viewBox="0 0 15.874 16.04">
+  <g id="eidt-pen-icon" transform="translate(157.236 -137.417)">
+    <path id="Rectangle" d="M-156.486,149.172l3.535-3.536,6.718-6.717a2,2,0,0,1,2.828,0l.707.707a2,2,0,0,1,0,2.828l-10.253,10.253h-3.535Z" fill="none" stroke="#005ca9" stroke-linejoin="round" stroke-width="1.5"/>
+    <line id="Line-Copy" x2="3.536" y2="3.536" transform="translate(-155.426 148.111)" fill="none" stroke="#005ca9" stroke-linecap="square" stroke-width="1.5"/>
+    <line id="Line" x2="3.536" y2="3.536" transform="translate(-146.94 139.626)" fill="none" stroke="#005ca9" stroke-linecap="square" stroke-width="1.5"/>
+  </g>
+</svg>

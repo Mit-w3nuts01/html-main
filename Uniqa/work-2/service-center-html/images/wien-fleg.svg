@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18.761" height="26.128" viewBox="0 0 18.761 26.128">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_515" data-name="Rectangle 515" width="18.761" height="26.128" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="wien-fleg" transform="translate(0 0.001)">
+    <g id="Group_975" data-name="Group 975" transform="translate(0 -0.001)" clip-path="url(#clip-path)">
+      <path id="Path_455" data-name="Path 455" d="M0,0H18.756V17.7a9.455,9.455,0,0,1-9.33,8.4c-4.927.042-9.1-3.751-9.34-8.225Z" transform="translate(0 -0.003)" fill="#b90017"/>
+      <path id="Path_456" data-name="Path 456" d="M11.562,25.873a10.151,10.151,0,0,1-2.2.255,8.648,8.648,0,0,1-2.171-.288V11.972H.084V7.609H7.191V0h4.363V7.609h7.26v4.363h-7.26Z" transform="translate(-0.053 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

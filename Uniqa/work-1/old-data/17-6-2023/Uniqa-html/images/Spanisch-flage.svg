@@ -1,0 +1,18 @@
+<svg id="Spanisch-flage" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_146" data-name="Path 146" d="M5.962,10.682a10,10,0,1,0,10-10,10,10,0,0,0-10,10" transform="translate(-5.962 -0.682)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_389" data-name="Group 389" transform="translate(0 0)">
+    <g id="Group_388" data-name="Group 388" clip-path="url(#clip-path)">
+      <path id="Path_144" data-name="Path 144" d="M28.422,0H0V6.925H31.062V0Z" transform="translate(-3.975 -0.455)" fill="#bd2735"/>
+      <path id="Path_662" data-name="Path 662" d="M0,0H31.063V8.288H0Z" transform="translate(-3.975 6.145)" fill="#ffcd00"/>
+      <path id="Path_145" data-name="Path 145" d="M0,27.853s1.182-.1,2.64-.1H28.422c1.458,0,2.64.019,2.64.019V20.831H0Z" transform="translate(-3.975 -7.399)" fill="#a73338"/>
+    </g>
+  </g>
+  <g id="Ellipse_16" data-name="Ellipse 16" fill="none" stroke="#ecedee" stroke-width="1">
+    <ellipse cx="10" cy="10" rx="10" ry="10" stroke="none"/>
+    <ellipse cx="10" cy="10" rx="9.5" ry="9.5" fill="none"/>
+  </g>
+</svg>

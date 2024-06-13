@@ -1,0 +1,41 @@
+index.html_Step-1-YES.png:
+single-selection (yes or no). Depending on those values, the next questions will be asked
+
+IF YES:
+index.html-Step-1-YES-Step-2.png:
+enter a name and we look for the person in our database
+
+index.html_Step-1-YES-Step-3-Result.png:
+if a person was found, this is the result page from the multistep
+
+index.html_Step1-YES-Step-3-No-Result.png
+if no person was found, this is the result page from the multistep. Button click "Neue Suche starten" should bring you back to first step of the multisite
+
+IF NO:
+index.html_Step-1-NO-Step-3.png:
+multi-select possible
+
+index.html_Step-1-NO-Step-4.png:
+multi-select possible
+
+index.html_Step-1-NO-Step-5.png:
+single-select
+
+index.html_Step-1-NO-Step-6.png:
+single-select
+
+index.html_Step-1-NO-Step-7.png
+single-select
+
+index.html_Step-1-NO-Step-8.png
+multi-select
+
+index.html_Step-1-NO-Step-9.png:
+single-select
+
+index.html_Step-1-NO-Step-10.png:
+overview of all selected answers from the last steps. If user clicks on "Anpassen" you will be redirected to the step so that you can change your options.
+
+index.html_Step-1-NO-Step-11.png:
+this view should appear if you click on Step 11 on the button "Weitere Ergebnisse laden"
+

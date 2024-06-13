@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000031196868273866214900000007954258044050221212_);}
+	.st1{fill:#D3001F;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#0B0B0B;}
+	.st4{fill:#D3001E;}
+	.st5{fill:#FFC000;}
+	.st6{fill:none;stroke:#FFFFFF;stroke-width:2;}
+</style>
+<g id="Gruppe_1975" transform="translate(23.975 20.455) rotate(180)">
+	<g>
+		<defs>
+			<path id="SVGID_1_" d="M-24.009-3.55c0,13.255,10.745,24,24,24s24-10.745,24-24s-10.745-24-24-24S-24.009-16.805-24.009-3.55"/>
+		</defs>
+		<clipPath id="SVGID_00000085228602290628895320000014247089120922599043_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g id="Gruppe_1975-2" style="clip-path:url(#SVGID_00000085228602290628895320000014247089120922599043_);">
+			<path id="Pfad_778" class="st1" d="M33.543-28.642h-40.75l4.8,16.62h35.952L33.543-28.642z"/>
+			<rect id="Rechteck_848" x="-0.009" y="-12.022" class="st2" width="33.552" height="16.711"/>
+			<path id="Pfad_779" class="st1" d="M33.543,4.686h-33.55v16.853c0,0,2.834-0.24,6.334-0.24h27.216V4.686z"/>
+			<path id="Pfad_780" class="st3" d="M-5.978-28.642h-27.571v16.62h31.942L-5.978-28.642z"/>
+			<path id="Pfad_781" class="st4" d="M-1.608-12.022h-31.942V4.689H2.403L-1.608-12.022z"/>
+			<path id="Pfad_782" class="st5" d="M2.405,4.686h-35.954v16.853c0,0,2.834-0.24,6.336-0.24H7.131L2.405,4.686z"/>
+		</g>
+	</g>
+</g>
+<line id="Linie_298" class="st6" x1="29.97" y1="47.398" x2="17.237" y2="0.666"/>
+</svg>

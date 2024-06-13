@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20.001" viewBox="0 0 20 20.001">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_177" data-name="Path 177" d="M6.771,9.976a9.9,9.9,0,1,0,9.9-9.9,9.9,9.9,0,0,0-9.9,9.9" transform="translate(-6.771 -0.074)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Ungarisch-flage" transform="translate(-1040 -731)">
+    <g id="Group_853" data-name="Group 853" transform="translate(1040 731.197)">
+      <g id="Group_401" data-name="Group 401" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <rect id="Rectangle_135" data-name="Rectangle 135" width="30.091" height="6.663" transform="translate(-4.451 -0.049)" fill="#d80018"/>
+        <rect id="Rectangle_136" data-name="Rectangle 136" width="30.091" height="6.663" transform="translate(-4.451 13.277)" fill="#367c26"/>
+        <rect id="Rectangle_137" data-name="Rectangle 137" width="30.091" height="6.663" transform="translate(-4.451 6.614)" fill="#fafafa"/>
+        <rect id="Rectangle_138" data-name="Rectangle 138" width="30.091" height="6.663" transform="translate(-4.451 6.614)" fill="none" stroke="#fff" stroke-miterlimit="2.5" stroke-width="0.057"/>
+      </g>
+    </g>
+    <g id="Ellipse_77" data-name="Ellipse 77" transform="translate(1040 731)" fill="none" stroke="#ecedee" stroke-width="1">
+      <circle cx="10" cy="10" r="10" stroke="none"/>
+      <circle cx="10" cy="10" r="9.5" fill="none"/>
+    </g>
+  </g>
+</svg>

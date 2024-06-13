@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="42" viewBox="0 0 42 42">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_758" data-name="Rectangle 758" width="42" height="42" fill="none" stroke="#617384" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="phone-message-icon" clip-path="url(#clip-path)">
+    <path id="Path_1182" data-name="Path 1182" d="M20.13,25.348V37.522A3.478,3.478,0,0,1,16.652,41H4.478A3.478,3.478,0,0,1,1,37.522V11.435A3.478,3.478,0,0,1,4.478,7.957H9.695" fill="none" stroke="#617384" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_177" data-name="Line 177" x1="8.696" transform="translate(1 14.913)" fill="none" stroke="#617384" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_178" data-name="Line 178" x1="19.13" transform="translate(1 34.043)" fill="none" stroke="#617384" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_179" data-name="Line 179" x2="1.739" transform="translate(7.957 11.435)" fill="none" stroke="#617384" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_1183" data-name="Path 1183" d="M41,14.044a2.61,2.61,0,0,1-2.609,2.609H28.826L23.609,21.87V16.653H17.522a2.61,2.61,0,0,1-2.609-2.609V3.609A2.61,2.61,0,0,1,17.522,1H38.391A2.61,2.61,0,0,1,41,3.609Z" fill="none" stroke="#617384" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_1184" data-name="Path 1184" d="M28.826,7.087a.87.87,0,1,0,.87.87.871.871,0,0,0-.87-.87" stroke="#617384" stroke-width="1"/>
+    <path id="Path_1185" data-name="Path 1185" d="M34.043,7.087a.87.87,0,1,0,.87.87.871.871,0,0,0-.87-.87" stroke="#617384" stroke-width="1"/>
+    <path id="Path_1186" data-name="Path 1186" d="M23.663,7.087a.87.87,0,1,0,.87.87.871.871,0,0,0-.87-.87" stroke="#617384" stroke-width="1"/>
+    <path id="Path_1187" data-name="Path 1187" d="M11.435,37.522a.87.87,0,1,1-.87-.87A.869.869,0,0,1,11.435,37.522Z" fill="none" stroke="#617384" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

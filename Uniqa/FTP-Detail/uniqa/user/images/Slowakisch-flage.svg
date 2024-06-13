@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_169" data-name="Path 169" d="M1.088,10.959A9.952,9.952,0,1,0,11.04,1.006a9.952,9.952,0,0,0-9.952,9.953" transform="translate(-1.088 -1.006)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_172" data-name="Path 172" d="M14.262,7.755H10.3s-.153,1.455-.153,4.656,2.421,4.818,4.113,5.634c1.693-.815,4.113-2.434,4.113-5.634s-.153-4.656-.153-4.656Z" transform="translate(-10.149 -7.755)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Slowakisch-flage" transform="translate(-50 -38.904)">
+    <g id="Group_1707" data-name="Group 1707" transform="translate(50 38.999)">
+      <g id="Group_393" data-name="Group 393">
+        <g id="Group_392" data-name="Group 392" clip-path="url(#clip-path)">
+          <rect id="Rectangle_130" data-name="Rectangle 130" width="30.868" height="6.86" transform="translate(-0.722 13.051)" fill="#dc091d"/>
+          <rect id="Rectangle_131" data-name="Rectangle 131" width="30.868" height="6.86" transform="translate(-0.722 6.192)" fill="#003f8f"/>
+          <rect id="Rectangle_132" data-name="Rectangle 132" width="30.868" height="6.86" transform="translate(-0.722 -0.668)" fill="#fafafa"/>
+          <path id="Path_167" data-name="Path 167" d="M14.074,18.271c-1.844-.888-4.483-2.652-4.483-6.14s.167-5.075.167-5.075h8.632s.167,1.587.167,5.075-2.639,5.252-4.483,6.14" transform="translate(-3.949 -3.042)" fill="#fff"/>
+          <path id="Path_168" data-name="Path 168" d="M14.262,18.043c-1.693-.815-4.113-2.433-4.113-5.634s.153-4.656.153-4.656h7.919s.153,1.456.153,4.656-2.42,4.818-4.113,5.634" transform="translate(-4.137 -3.277)" fill="#dc091d"/>
+        </g>
+      </g>
+      <g id="Group_395" data-name="Group 395" transform="translate(6.012 4.478)">
+        <g id="Group_394" data-name="Group 394" clip-path="url(#clip-path-2)">
+          <path id="Path_170" data-name="Path 170" d="M15.437,11.76a6.594,6.594,0,0,0,2.148-.241s-.021.285-.021.616.021.617.021.617a6.915,6.915,0,0,0-2.148-.243v1.768h-.724V12.509a6.915,6.915,0,0,0-2.148.243s.021-.285.021-.617-.021-.616-.021-.616a6.6,6.6,0,0,0,2.148.241V10.65a5.062,5.062,0,0,0-1.7.244s.021-.285.021-.617-.021-.617-.021-.617a5.065,5.065,0,0,0,1.7.244,9.852,9.852,0,0,0-.226-1.589s.422.033.59.033.59-.033.59-.033A9.852,9.852,0,0,0,15.439,9.9a5.065,5.065,0,0,0,1.7-.244s-.021.285-.021.617.021.617.021.617a5.06,5.06,0,0,0-1.7-.244Z" transform="translate(-10.962 -7.943)" fill="#fff"/>
+          <path id="Path_171" data-name="Path 171" d="M14.457,22.208l-3.506-3.126s.449-1.45,1.324-1.45a1.046,1.046,0,0,1,.949.561s.456-1.182,1.308-1.182,1.309,1.182,1.309,1.182a1.045,1.045,0,0,1,.949-.561c.875,0,1.324,1.45,1.324,1.45Z" transform="translate(-10.419 -10.87)" fill="#003f8f"/>
+        </g>
+      </g>
+    </g>
+    <g id="Ellipse_24" data-name="Ellipse 24" transform="translate(50 38.904)" fill="none" stroke="#ecedee" stroke-width="1">
+      <circle cx="10" cy="10" r="10" stroke="none"/>
+      <circle cx="10" cy="10" r="9.5" fill="none"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'WixMadeforDisplay-Regular';
+    src: url('WixMadeforDisplay-Regular.woff2') format('woff2'),
+        url('WixMadeforDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'WixMadeforDisplay-Medium';
+    src: url('WixMadeforDisplay-Medium.woff2') format('woff2'),
+        url('WixMadeforDisplay-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

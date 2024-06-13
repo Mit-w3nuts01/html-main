@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27.747" height="25.181" viewBox="0 0 27.747 25.181">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_911" data-name="Rectangle 911" width="23.633" height="24.431" fill="none" stroke="#617384" stroke-width="2"/>
+    </clipPath>
+  </defs>
+  <g id="user-edit-title-icon" transform="translate(-167.377 -146)">
+    <g id="Group_2330" data-name="Group 2330" transform="translate(167.377 145.999)">
+      <g id="Group_2301" data-name="Group 2301" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Path_838" data-name="Path 838" d="M16.82,6.913A6.164,6.164,0,1,1,10.657.75,6.163,6.163,0,0,1,16.82,6.913Z" transform="translate(1.327 0.221)" fill="none" stroke="#617384" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path_839" data-name="Path 839" d="M.75,21.334a10.845,10.845,0,1,1,21.69,0" transform="translate(0.221 3.097)" fill="none" stroke="#617384" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+    <g id="Icons_z-embedded_icon_functional_edit--md" data-name="Icons/z-embedded/icon/functional/edit--md" transform="translate(336.486 17.723)">
+      <g id="Group">
+        <path id="Rectangle" d="M-156.486,149.172l3.535-3.536,6.718-6.717a2,2,0,0,1,2.828,0l.707.707a2,2,0,0,1,0,2.828l-10.253,10.253h-3.535Z" fill="#fff" stroke="#617384" stroke-linejoin="round" stroke-width="1.5"/>
+        <line id="Line-Copy" x2="3.536" y2="3.536" transform="translate(-155.426 148.111)" fill="none" stroke="#617384" stroke-linecap="square" stroke-width="1.5"/>
+        <line id="Line" x2="3.536" y2="3.536" transform="translate(-146.94 139.626)" fill="none" stroke="#617384" stroke-linecap="square" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

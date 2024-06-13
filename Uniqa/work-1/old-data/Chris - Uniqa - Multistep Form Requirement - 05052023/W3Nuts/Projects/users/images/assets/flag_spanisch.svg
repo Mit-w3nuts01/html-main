@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000088842863937681590960000010447722970006834837_);}
+	.st1{fill:#BD2735;}
+	.st2{fill:#FFCD00;}
+</style>
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M-0.016,24.005c0,13.255,10.745,24,24,24s24-10.745,24-24s-10.745-24-24-24S-0.016,10.751-0.016,24.005"/>
+	</defs>
+	<clipPath id="SVGID_00000083071666475912443520000008457923645335521154_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g id="Gruppe_388" style="clip-path:url(#SVGID_00000083071666475912443520000008457923645335521154_);">
+		<path id="Pfad_144" class="st1" d="M58.657-1.087H-9.556v16.62h74.549v-16.62H58.657z"/>
+		<path id="Pfad_662" class="st2" d="M-9.556,14.753h74.551v19.891H-9.556V14.753z"/>
+		<path id="Pfad_145" class="st1" d="M-9.556,49.095c0,0,2.837-0.24,6.336-0.24h61.877c3.499,0,6.336,0.046,6.336,0.046V32.242
+			H-9.556V49.095z"/>
+	</g>
+</g>
+</svg>

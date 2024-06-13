@@ -1,0 +1,20 @@
+
+@media (min-width: 1400px) and (max-width: 1600px) {}
+
+@media (min-width: 1301px) and (max-width: 1399px) {}
+
+@media (min-width: 1200px) and (max-width: 1300px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.logo_mobile { display: block !important; }
+	.navigation .nav_wrap > ul > li.logo_wrap { display: none !important; }
+}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 767px) {
+	.logo_mobile { display: block !important; }
+	.navigation .nav_wrap > ul > li.logo_wrap { display: none !important; }
+}
